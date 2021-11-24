@@ -1,9 +1,5 @@
 package com.example.porjectforfinal;
 
-import static androidx.core.content.ContextCompat.getSystemService;
-
-import android.content.Context;
-import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -28,9 +24,5 @@ public class frag3 extends Fragment {
     }
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-       /* LocationManager manager = (LocationManager) getSystemService(.LOCATION_SERVICE);
-        GPSListener gpsListener = new GPSListener();*/
-        long minTime = 10000;
-        float minDistance = 0;
     }
 }

@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/frag3_layout"
     android:orientation="vertical">
-
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="3번화면"
-        android:textSize="40dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3번화면예정"
+        android:backgroundTint="@color/black"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
 
+    <!--  <fragment
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/frag3_map"
+          tools:context=".MapsActivity"
+          android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <com.example.wherewego.MyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    -->
 
 </LinearLayout>

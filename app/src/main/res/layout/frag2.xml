@@ -3,19 +3,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="폰에서 사용되고 있는 Location 제공자 알아보기"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="결과창"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </LinearLayout>
 
