@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
 
 //
-        MyView w = new MyView(this);
+        //MyView w = new MyView(this);
 //
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON,

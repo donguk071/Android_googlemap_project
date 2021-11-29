@@ -25,7 +25,7 @@ public class frag2 extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = (ViewGroup) inflater.inflate(R.layout.frag2,container,false);
 
-        TextView tv = (TextView)view.findViewById(R.id.textView2);
+        //TextView tv = (TextView)view.findViewById(R.id.textView2);
 
         ct = container.getContext();
         //LocationManager lm = (LocationManager)getSystemService(Context.LOCATION_SERVICE);

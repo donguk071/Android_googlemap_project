@@ -3,30 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
     android:id="@+id/frag3_layout"
-    android:orientation="vertical">
-    <TextView
+    android:orientation="vertical"
+    android:background="@color/white">
+
+<!--  <ListView-->
+<!--      android:id="@+id/listview1"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="match_parent"-->
+<!--      android:layout_weight="1"/>-->
+<!--  -->
+  <ListView
+      android:id="@+id/listView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_below="@+id/textView"
+      android:layout_alignParentStart="true">
+  </ListView>
+
+  <!--  <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="3번화면예정"
-        android:backgroundTint="@color/black"
-        android:layout_weight="1"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
+        android:id="@+id/frag3_map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
 
-    <!--  <fragment
-          android:layout_width="match_parent"
-          android:layout_height="match_parent"
-          android:id="@+id/frag3_map"
-          tools:context=".MapsActivity"
-          android:name="com.google.android.gms.maps.SupportMapFragment" />
-
-    <com.example.wherewego.MyView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-    -->
+  <com.example.wherewego.MyView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
+  -->
 
 </LinearLayout>

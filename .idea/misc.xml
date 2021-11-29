@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1953125" />
+        <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/drawable/ic_baseline_check_box.xml" value="0.1" />
+        <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/drawable/ic_baseline_directions_run_24.xml" value="0.1" />
+        <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/drawable/ic_baseline_friend.xml" value="0.1" />
+        <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/drawable/ic_baseline_logout.xml" value="0.1" />
         <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/layout/activity_splash.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/layout/costom_view.xml" value="0.1" />
         <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/layout/frag1.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/layout/frag2.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/drago/AndroidStudioProjects/porjectForfinal/app/src/main/res/layout/frag3.xml" value="0.17916666666666667" />
